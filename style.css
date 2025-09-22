@@ -1,0 +1,83 @@
+
+body {
+    background-color: black;
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.logo {
+    height: 60px;
+}
+
+header li {
+    text-decoration: none;
+    display: inline;
+    padding: 4px;
+}
+
+header a{
+    text-decoration: none;
+    color: red;
+}
+
+.hero {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero p{
+font-size: 1.5rem;
+}
+.btn {
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer p {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+      align-items: center;
+    justify-content: center;
+}
+
+.links {
+    margin-top: 50px;
+    text-align: center;
+  
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+    }
+    header nav {
+        position: relative;
+    }
+}
